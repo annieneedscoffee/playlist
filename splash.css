@@ -1,0 +1,54 @@
+* {
+  background-color: 	#DCDCDC;
+}
+
+.header{
+background-color: grey;
+border-bottom: 1px solid black;
+height: 100px;
+margin-bottom: 90%;
+}
+
+h1 {
+color: purple;
+}
+
+.button {
+  color: white;
+  background-color: #696969
+  height: 100px;
+  width: 200px;
+}
+
+#img1 {
+  height: 500px;
+  width: 500px;
+  content: url("./fadedTrack.jpg");
+  float: right;
+}
+
+#img2 {
+border: 1px solid black;
+height: 300px;
+width: 300px;
+}
+
+#img3{
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+}
+
+#img4{
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+}
+
+#footer {
+  color: white;
+  background-color: grey;
+  margin-top: 90%;
+  height: 100px;
+  font-size: 20px;
+}

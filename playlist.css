@@ -1,0 +1,48 @@
+* {
+  background-color: white;
+}
+#navbar{
+
+}
+#boxofselections{
+  height:300px;
+  width: 900px;
+  background-color: #DCDCDC;
+  border: 2px solid black;
+}
+.boxandbuttons{
+  left: 50%;
+}
+.button{
+  display: inline-block;
+}
+#album1{
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  content: url('https://static.vibe.com/files/article_images/adele-21-amazon-best-selling-album.png');
+}
+#album2{
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  content:url('https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/0017/6487/brand.gif?itok=GGvjCaPh');
+}
+#album3{
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  content:url('Users/charlottespencer/Documents/Galvanize/playlist/images/red.jpg');
+}
+#album4{
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  content:url('https://www.classicrockforums.com/media/pink-floyd-the-division-bell-1994.15570/full?d=1502687680');
+}
+#album5{
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  content:url('Users/charlottespencer/Documents/Galvanize/playlist/images/thriller.jpg');
+}
