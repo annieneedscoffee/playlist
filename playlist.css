@@ -20,29 +20,29 @@
   height: 150px;
   width: 150px;
   border: 1px solid black;
-  content: url('https://static.vibe.com/files/article_images/adele-21-amazon-best-selling-album.png');
+  content: url('./21.jpg');
 }
 #album2{
   height: 150px;
   width: 150px;
   border: 1px solid black;
-  content:url('https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/0017/6487/brand.gif?itok=GGvjCaPh');
+  content:url('./ghost_in_the_machine.jpg');
 }
 #album3{
   height: 150px;
   width: 150px;
   border: 1px solid black;
-  content:url('Users/charlottespencer/Documents/Galvanize/playlist/images/red.jpg');
+  content:url('./red.jpg');
 }
 #album4{
   height: 150px;
   width: 150px;
   border: 1px solid black;
-  content:url('https://www.classicrockforums.com/media/pink-floyd-the-division-bell-1994.15570/full?d=1502687680');
+  content:url('./the_division_bell.jpg');
 }
 #album5{
   height: 150px;
   width: 150px;
   border: 1px solid black;
-  content:url('Users/charlottespencer/Documents/Galvanize/playlist/images/thriller.jpg');
+  content:url('./thriller.jpg');
 }

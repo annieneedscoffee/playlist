@@ -10,10 +10,19 @@ $(document).ready(function(){
   var used = [];
 
     for(i=0;i<boxlist.length;i++){
-      var num = Math.floor(Math.random()*5);
+      function roll(){
+        var number = Math.floor(Math.random()*5);
+      return number;
+    }
+      var num = roll();
+      if(num === used[0] || num === used[1]){
+       var retry = roll();
+       $(boxlist[i]).prepend(imagelist[retry]);
+       used.push(retry);
+      } else {
       console.log(num);
       $(boxlist[i]).prepend(imagelist[num]);
       used.push(num);
-    }
+    }}
 
 })
