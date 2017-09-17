@@ -20,29 +20,29 @@
   height: 150px;
   width: 150px;
   border: 1px solid black;
-  content: url('./21.jpg');
+  content: url('./ghost_in_the_machine.jpg');
 }
 #album2{
   height: 150px;
   width: 150px;
   border: 1px solid black;
-  content:url('./ghost_in_the_machine.jpg');
+  content:url('./red.jpg');
 }
 #album3{
   height: 150px;
   width: 150px;
   border: 1px solid black;
-  content:url('./red.jpg');
+  content:url('./the_division_bell.jpg');
 }
 #album4{
   height: 150px;
   width: 150px;
   border: 1px solid black;
-  content:url('./the_division_bell.jpg');
+  content:url('./thriller.jpg');
 }
 #album5{
   height: 150px;
   width: 150px;
   border: 1px solid black;
-  content:url('./thriller.jpg');
+  content:url('./21.jpg');
 }
