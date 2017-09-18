@@ -22,13 +22,36 @@ $(document).ready(function(){
       console.log(z);
     }
     //need foreach statement here. Only hardcode as last result. Or see solution in slack with a get request for each one.
-for(i=0;i<albumlist.length; i++){
-  $(albumlist[i]).on('click', function(){
-    $(boxofselections).text(z[0] + ": " + y[0]);
-  })
-}
-
-
+$('#album1').on('click', function(){
+  var words = $('<p></p>')
+$(words).text(z[0] + ": " + y[0] + ", ");
+console.log(words);
+$(boxofselections).append(words);
+})
+$('#album2').on('click', function(){
+  var words = $('<p></p>')
+$(words).text(z[1] + ": " + y[1] + ", ");
+console.log(words);
+$(boxofselections).append(words);
+})
+$('#album3').on('click', function(){
+  var words = $('<p></p>')
+$(words).text(z[2] + ": " + y[2] + ", ");
+console.log(words);
+$(boxofselections).append(words);
+})
+$('#album4').on('click', function(){
+  var words = $('<p></p>')
+$(words).text(z[3] + ": " + y[3] + ", ");
+console.log(words);
+$(boxofselections).append(words);
+})
+$('#album5').on('click', function(){
+  var words = $('<p></p>')
+$(words).text(z[4] + ": " + y[4] + ", ");
+console.log(words);
+$(boxofselections).append(words);
+})
     $(cleartracks).on('click',function(){
       $(boxofselections).empty();
     })
